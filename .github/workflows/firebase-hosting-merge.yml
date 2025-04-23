@@ -48,3 +48,4 @@ jobs:
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_PERSONAL_FINANCE_DASHBOA_C72B1 }}
           channelId: live
           projectId: personal-finance-dashboa-c72b1
+          entryPoint: finance-dashboard
