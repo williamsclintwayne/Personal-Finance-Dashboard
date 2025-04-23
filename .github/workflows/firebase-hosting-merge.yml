@@ -18,6 +18,12 @@ jobs:
         with:
           node-version: '18'
 
+      - name: Debug Environment
+        run: |
+          node --version
+          npm --version
+          npx --version
+
       - name: Install dependencies and build
         run: |
           cd finance-dashboard
@@ -34,6 +40,12 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '18'
+
+      - name: Debug Environment
+        run: |
+          node --version
+          npm --version
+          npx --version
 
       - name: Install dependencies and build
         run: |
